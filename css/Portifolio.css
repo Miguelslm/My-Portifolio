@@ -50,6 +50,8 @@ nav {
     vertical-align: top;
 }
 
+
+
 h1 {
     color: aliceblue;
     background-color: rgba(77, 76, 76, 0.349);
@@ -84,6 +86,14 @@ li {
     font-size: 20px;
     border: solid black;
     border-radius: 40px;
+}
+
+h2 {
+    margin-left: 110px;
+}
+
+h3 {
+    margin-left: 110px;
 }
 
 p {
