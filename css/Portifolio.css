@@ -7,46 +7,97 @@ nav {
 }
 
 .Home {
-    border: ridge 5px black;
+    border: ridge 5px rgb(88, 88, 88);
     text-align: center;
+    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    
 }
 
 .Perfil {
-    border: ridge 5px black;
+    border: ridge 5px rgb(88, 88, 88);
     text-align: center;
+    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
 }
 
-a:link {
-    text-decoration: none;
-    color: red;
-}
 
-.Titulo {
+.Titulo1, .Lista1 {
     color: aliceblue;
-    font-size: 20px;
-    border: groove 8px black;
-    border-radius: 10px;
-    background-color: rgba(77, 76, 76, 0.349);
+    font-size: 25px;
     width: 150px;
     text-align: center;
+    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.Lista {
+.Titulo2, .Lista2{
     color: aliceblue;
-    width: 280px;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Titulo3, .Lista3{
+    color: aliceblue;
+    font-size: 25px;
+    width: 150px;
+    text-align: center;
+    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: rgba(77, 76, 76, 0.349);
+    text-align: center;
+    width: 200px;
+    border: solid black;
+    border-radius: 30px;
+    text-shadow: 5px 3px 3px rgb(121, 121, 121) ;
+    padding-bottom: 2px;
+}
+
+h4 {
+    color: aliceblue;
+    background-color: rgba(77, 76, 76, 0.349);
+    text-align: center;
+    width: 200px;
+    border: solid black;
+    border-radius: 30px;
+    text-shadow: 5px 3px 3px rgb(121, 121, 121) ;
+    padding-bottom: 2px;
+    font-size: 20px;
+}
+.FooterCont {
+    background-color: rgba(77, 76, 76, 0.349);
+    font-size: 16px;
+    border: solid black;
+    border-radius: 35px;
 }
 
 li {
     background-color: rgba(77, 76, 76, 0.349);
+    font-size: 20px;
+    border: solid black;
+    border-radius: 40px;
 }
 
 p {
+    font-size: 26px;
     color: aliceblue;
     background-color: rgba(77, 76, 76, 0.349);
     text-align: center;
+    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    border: solid black;
+    border-radius: 40px;
 }
 
 footer {
-    width: 280px;
+    width: 300px;
     color: aliceblue;
 }
+
