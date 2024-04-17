@@ -7,6 +7,7 @@ nav {
 }
 
 .Home {
+    font-size: 25px;
     border: solid 2px black;
     border-radius: 5px;
     text-align: center;
@@ -15,6 +16,7 @@ nav {
 }
 
 .Perfil {
+    font-size: 25px;
     border: solid 2px black;
     border-radius: 5px;
     text-align: center;
@@ -28,14 +30,9 @@ a:link {
 }
 
 a:active{
-    font-size: 15px;
+    font-size: 23px;
     color: rgb(107, 0, 0);
 }
-
-/* a:visited {
-    color: rgba(132, 0, 255, 0.575);
-} */
-
 
 img {
     border: solid 2px black;

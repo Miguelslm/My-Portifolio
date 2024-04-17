@@ -2,20 +2,23 @@
     background-color: rgb(0, 0, 0);
 }
 
+
 nav {
     color: aliceblue;
 }
 
 .Home {
+    font-size: 25px;
     border: solid 2px black;
     border-radius: 5px;
     text-align: center;
     text-shadow: 2px 1px 2px rgb(32, 32, 32) ;
-    background-color:rgba(77, 76, 76, 0.349);
+    background-color: rgba(77, 76, 76, 0.349);
 }
 
 
 .Perfil {
+    font-size: 25px;
     border: solid 2px black;
     border-radius: 5px;
     text-align: center;
@@ -28,9 +31,10 @@ a:link {
 }
 
 a:active{
-    font-size: 15px;
+    font-size: 23px;
     color: rgb(107, 0, 0);
 }
+
 
 
 .Titulo1, .Lista1 {
@@ -113,7 +117,7 @@ h3 {
 p {
     font-size: 26px;
     color: aliceblue;
-    background-color: rgba(189, 189, 189, 0.322);
+    background-color:  rgba(77, 76, 76, 0.349);
     text-align: center;
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     border: solid black;
@@ -121,6 +125,7 @@ p {
 }
 
 footer {
+    padding-top: 50px;
     width: 300px;
     color: aliceblue;
 }
