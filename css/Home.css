@@ -7,16 +7,34 @@ nav {
 }
 
 .Home {
-    border: ridge 5px black;
+    border: solid 2px black;
+    border-radius: 5px;
     text-align: center;
-    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    text-shadow: 2px 1px 2px rgb(32, 32, 32) ;
+    background-color:rgba(77, 76, 76, 0.349);
 }
 
 .Perfil {
-    border: ridge 5px black;
+    border: solid 2px black;
+    border-radius: 5px;
     text-align: center;
-    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    text-shadow: 2px 1px 2px rgb(32, 32, 32) ;
+    background-color: rgba(77, 76, 76, 0.349);
 }
+
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:active{
+    font-size: 15px;
+    color: rgb(107, 0, 0);
+}
+
+/* a:visited {
+    color: rgba(132, 0, 255, 0.575);
+} */
 
 
 img {
@@ -33,7 +51,7 @@ h1 {
     width: 300px;
     border: solid black;
     border-radius: 30px;
-    text-shadow: 5px 3px 3px rgb(121, 121, 121) ;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     padding-bottom: 10px;
 }
 
@@ -58,7 +76,7 @@ h1 {
     border: solid black;
     border-radius: 20px;
     font-size: 30px;
-    text-shadow: 5px 3px 3px rgb(121, 121, 121) ;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
 }
 
 

@@ -7,16 +7,29 @@ nav {
 }
 
 .Home {
-    border: ridge 5px rgb(88, 88, 88);
+    border: solid 2px black;
+    border-radius: 5px;
     text-align: center;
-    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
-    
+    text-shadow: 2px 1px 2px rgb(32, 32, 32) ;
+    background-color:rgba(77, 76, 76, 0.349);
 }
 
+
 .Perfil {
-    border: ridge 5px rgb(88, 88, 88);
+    border: solid 2px black;
+    border-radius: 5px;
     text-align: center;
-    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    text-shadow: 2px 1px 2px rgb(32, 32, 32) ;
+    background-color: rgba(77, 76, 76, 0.349);
+}
+a:link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:active{
+    font-size: 15px;
+    color: rgb(107, 0, 0);
 }
 
 
@@ -59,7 +72,7 @@ h1 {
     width: 200px;
     border: solid black;
     border-radius: 30px;
-    text-shadow: 5px 3px 3px rgb(121, 121, 121) ;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     padding-bottom: 2px;
 }
 
@@ -70,7 +83,7 @@ h4 {
     width: 200px;
     border: solid black;
     border-radius: 30px;
-    text-shadow: 5px 3px 3px rgb(121, 121, 121) ;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     padding-bottom: 2px;
     font-size: 20px;
 }
@@ -100,9 +113,9 @@ h3 {
 p {
     font-size: 26px;
     color: aliceblue;
-    background-color: rgba(77, 76, 76, 0.349);
+    background-color: rgba(189, 189, 189, 0.322);
     text-align: center;
-    text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     border: solid black;
     border-radius: 40px;
 }
