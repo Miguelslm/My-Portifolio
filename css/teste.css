@@ -16,7 +16,6 @@ nav {
     background-color: rgba(77, 76, 76, 0.349);
 }
 
-
 .Perfil {
     font-size: 25px;
     border: solid 2px black;
@@ -38,7 +37,12 @@ a:active{
 .container {
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
+
 
 .Titulo1, .Lista1 {
     color: aliceblue;
@@ -46,8 +50,7 @@ a:active{
     width: 150px;
     text-align: center;
     text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
-    /* display: inline-block;
-    vertical-align: top; */
+   
 }
 
 .Titulo2, .Lista2{
@@ -56,8 +59,6 @@ a:active{
     width: 150px;
     text-align: center;
     text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
-    /* display: inline-block;
-    vertical-align: top; */
 }
 
 .Titulo3, .Lista3{
@@ -66,10 +67,7 @@ a:active{
     width: 150px;
     text-align: center;
     text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
-    /* display: inline-block;
-    vertical-align: top; */
 }
-
 
 
 h1 {
@@ -94,28 +92,8 @@ h4 {
     padding-bottom: 2px;
     font-size: 20px;
 }
-.FooterCont {
-    background-color: rgba(77, 76, 76, 0.349);
-    font-size: 16px;
-    border: solid black;
-    border-radius: 35px;
-}
 
-li {
-    background-color: rgba(77, 76, 76, 0.349);
-    font-size: 20px;
-    border: solid black;
-    /* border-radius: 20px;
-    margin-right: -70px; */
-}
 
-h2 {
-    margin-left: 200px;
-}
-
-h3 {
-    margin-left: 200px;
-}
 
 p {
     font-size: 26px;
@@ -124,7 +102,16 @@ p {
     text-align: center;
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     border: solid black;
-    border-radius: 40px;
+    border-radius: 16px;
+}
+
+
+
+li {
+    background-color: rgba(77, 76, 76, 0.349);
+    font-size: 20px;
+    border: solid black;
+    border-radius: 15px;
 }
 
 footer {
@@ -132,4 +119,13 @@ footer {
     width: 300px;
     color: aliceblue;
 }
+
+
+.FooterCont {
+    background-color: rgba(77, 76, 76, 0.349);
+    font-size: 16px;
+    border: solid black;
+    border-radius: 35px;
+}
+
 
