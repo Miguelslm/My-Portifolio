@@ -1,4 +1,4 @@
-* {
+/* * {
     background-color: rgb(0, 0, 0);
 }
 
@@ -28,9 +28,9 @@ nav {
 a:link {
     text-decoration: none;
     color: rgb(255, 255, 255);
-}
+} */
 
-a:active{
+/* a:active{
     font-size: 23px;
     color: rgb(107, 0, 0);
 }
@@ -46,8 +46,8 @@ a:active{
     width: 150px;
     text-align: center;
     text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
-    /* display: inline-block;
-    vertical-align: top; */
+    display: inline-block;
+    vertical-align: top;
 }
 
 .Titulo2, .Lista2{
@@ -56,8 +56,8 @@ a:active{
     width: 150px;
     text-align: center;
     text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
-    /* display: inline-block;
-    vertical-align: top; */
+    display: inline-block;
+    vertical-align: top;
 }
 
 .Titulo3, .Lista3{
@@ -66,8 +66,8 @@ a:active{
     width: 150px;
     text-align: center;
     text-shadow: 2px 1px 2px rgb(190, 190, 190) ;
-    /* display: inline-block;
-    vertical-align: top; */
+    display: inline-block;
+    vertical-align: top;
 }
 
 
@@ -105,8 +105,8 @@ li {
     background-color: rgba(77, 76, 76, 0.349);
     font-size: 20px;
     border: solid black;
-    /* border-radius: 20px;
-    margin-right: -70px; */
+    border-radius: 20px;
+    margin-right: -70px;
 }
 
 h2 {
@@ -131,5 +131,5 @@ footer {
     padding-top: 50px;
     width: 300px;
     color: aliceblue;
-}
+} */
 
