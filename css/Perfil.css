@@ -14,6 +14,11 @@ nav {
     text-align: center;
     text-shadow: 2px 1px 2px rgb(32, 32, 32) ;
     background-color: rgba(77, 76, 76, 0.349);
+    transition: background-color 0.3s;
+}
+
+.Home:hover {
+    background-color: gray;
 }
 
 .Perfil {
@@ -23,7 +28,13 @@ nav {
     text-align: center;
     text-shadow: 2px 1px 2px rgb(32, 32, 32) ;
     background-color: rgba(77, 76, 76, 0.349);
+    transition: background-color 0.3s;
 }
+
+.Perfil:hover {
+    background-color: gray;
+}
+
 a:link {
     text-decoration: none;
     color: rgb(255, 255, 255);
