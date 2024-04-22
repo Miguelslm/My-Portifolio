@@ -34,6 +34,10 @@ a:active{
     color: rgb(107, 0, 0);
 }
 
+a:visited {
+    color: blueviolet;
+}
+
 .container {
     display: flex;
     justify-content: center;

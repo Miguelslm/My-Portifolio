@@ -34,6 +34,11 @@ a:active{
     color: rgb(107, 0, 0);
 }
 
+a:visited {
+    color: blueviolet;
+}
+
+
 img {
     border: solid 2px black;
     border-radius: 45px;
