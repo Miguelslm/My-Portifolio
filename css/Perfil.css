@@ -2,6 +2,29 @@
     background-color: rgb(0, 0, 0);
 }
 
+/* .container {
+    background-color: black;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: repeat(4);
+    grid-template-areas:
+    "header header header header header header"
+    "main main main main main main"
+    "main main main main main main"
+    "footer footer footer footer footer footer"
+    ;
+} */
+
+.header {
+    grid-area: header;
+    text-align: center;
+}
+
+.main {
+    grid-area: main;
+}
+
 
 nav {
     font-family: "Merienda", cursive;
@@ -53,12 +76,12 @@ a:visited {
     color: blueviolet;
 }
 
-.container {
+.container2 {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -95,14 +118,6 @@ a:visited {
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
 }
 
-@media screen and( min-width: 769px) {
-    .Titulo1, .Lista1,
-    .Titulo2, .Lista2,
-    .titulo3, .Lista3 {
-        font-size: 25px;
-        width: 150px;
-    }
-}
 
 h1 {
     font-family: "Merienda", cursive;
@@ -112,11 +127,11 @@ h1 {
     color: aliceblue;
     background-color: rgba(77, 76, 76, 0.349);
     text-align: center;
-    width: 200px;
     border: solid black;
     border-radius: 30px;
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     padding-bottom: 2px;
+    font-size: 40px;
 }
 
 h4 {
@@ -125,9 +140,9 @@ h4 {
     font-weight: 300;
     font-style: normal;
     color: aliceblue;
-    background-color: rgba(77, 76, 76, 0.349);
+    /* background-color: rgba(77, 76, 76, 0.349); */
     text-align: center;
-    width: 200px;
+    /* width: 200px; */
     border: solid black;
     border-radius: 30px;
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
@@ -162,18 +177,41 @@ li {
 }
 
 footer {
+    grid-area: footer;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
-    padding-top: 50px;
-    width: 350px;
-    color: aliceblue;
+    bottom: 0;
+    width: 100%;
 }
 
 
-.FooterCont {
-    background-color: rgba(77, 76, 76, 0.349);
-    font-size: 16px;
-    border: solid black;
-    border-radius: 35px;
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: gray;
 }
 
 
+.Pfooter {
+    background-color: black;
+    font-size: 15px;
+}
+
+
+
+@media screen and( min-width: 769px) {
+    .container2 {
+        display: block;
+        background-image: none;
+    }
+    
+    }

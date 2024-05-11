@@ -2,6 +2,29 @@
     background-color: rgb(0, 0, 0);
 }
 
+
+
+.container {
+    background-color: black;
+    font-size: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(5);
+    grid-template-areas:
+    "header header header"
+    "main main main"
+    "main main main"
+    "main main main"
+    "footer footer footer"
+    ;
+}
+
+.header{
+    grid-area: header;
+    text-align: center;
+}
+
+
 nav {
     font-family: "Merienda", cursive;
     font-optical-sizing: auto;
@@ -52,13 +75,9 @@ a:visited {
     color: blueviolet;
 }
 
-
-img {
-    border: solid 2px black;
-    border-radius: 45px;
-    float: right;
+.main {
+    grid-area: main;
 }
-
 
 h1 {
     font-family: "Merienda", cursive;
@@ -68,14 +87,24 @@ h1 {
     color: aliceblue;
     background-color: rgba(77, 76, 76, 0.349);
     text-align: center;
-    width: 300px;
     border: solid black;
     border-radius: 30px;
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
     padding-bottom: 10px;
+    font-size: 40px;
 }
 
-.container {
+
+img {
+    border: solid 2px black;
+    border-radius: 45px;
+    float: right;
+}
+
+
+
+
+.container1 {
     display: flex;
     align-items: center;
 }
@@ -101,11 +130,60 @@ h1 {
     text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
 }
 
-@media screen and(min-width: 769px) {
-    .imagem, .texto{
-        font-size: 25px;
-        width: 150px;
-    }
+h4 {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: aliceblue;
+    /* background-color: rgba(77, 76, 76, 0.349); */
+    text-align: center;
+    /* width: 200px; */
+    /* border: solid black; */
+    border-radius: 30px;
+    text-shadow: 4px 2px 4px rgb(0, 0, 0) ;
+    padding-bottom: 2px;
+    font-size: 20px;
 }
 
 
+.footer {
+    grid-area: footer;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: black;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: gray;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .container{
+        display: block;
+        background-image: none;
+    }
+    .container1{
+        display:block
+    }
+
+    .imagem {
+        display: block;
+    }
+
+}
